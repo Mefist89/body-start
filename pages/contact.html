@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Contacte - Body Start</title>
+</head>
+<body>
+
+    <header>
+        <nav id="contact-nav">
+            <div class="logo">
+                <img src="../img/logof.png" alt="Logo">
+                <h1>Body<span>Start</span></h1>
+            </div>
+            <div class="nav-items">
+                <i class="fa-solid fa-bars" id="menu-icon" onclick="showmenu()"></i>
+                <ul class="nav-list" onclick="hidemenu()">
+                    <li><a href="../index.html">Acasă</a></li>
+                    <li><a href="about.html">Despre noi</a></li>
+                    <li><a href="abonamente.html">Abonamente</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="selected">Contacte</a></li>
+                    <li><a href="galeria.html" class="join-btn">Galeria</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="content_wrapper">
+                <h1><span>FIECARE ZI ÎN CARE NU TE ANTRENEZI ESTE <br>O ZI ÎN CARE ÎȚI RĂMÂNE ACELAȘI CORP.</span></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-row">
+                <div class="contact-col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Strada Alexei Mateevici 12, MD-3909, Cahul</p>
+                </div>
+                <div class="contact-col">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <p>+373 79 662 020</p>
+                </div>
+                <div class="contact-col">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>bodystartcahul@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info contact-des">
+        <div class="container contact-container">
+            <div class="contact-row">
+                <div class="contact-col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11104.910692749776!2d28.1977174!3d45.9067577!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65d674583be4f%3A0x6bff2546b2ef11c4!2sBody%20Start%20-%20Fitness%20Club!5e0!3m2!1sen!2s!4v1724891737550!5m2!1sen!2s" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-col">
+                    <img src="../img/contact.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <h2>Trimite-ne un mesaj</h2>
+            <form action="https://sheetdb.io/api/v1/hrln0nyfuap0c" method="post">
+                <div class="form-group">
+                    <label for="name">Nume:</label>
+                    <input type="text"  id="name" name="data[Nume]" required pattern="[a-zA-Z ]+">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon:</label>
+                    <input type="text" id="phone" name="data[Telefon]" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="data[Email]" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj:</label>
+                    <textarea id="message" name="data[Mesaj]" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Trimite</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-links">
+                    <div>DESPRE NOI</div>
+                    <ul>
+                        <li>Body Start e soluția modernă de a face sport, fitness ca să vă mențineți într-o formă fizică perfectă cu grijă de sănătate. Body Start vine în asigurarea celor mai apreciate, sănătoase programe de exerciții individuale, de grup.</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <div>HARTA WEB</div>
+                    <ul>
+                        <li><a href="../index.html" >Acasă</a></li>
+                        <li><a href="about.html">Despre noi</a></li>
+                        <li><a href="abonamente.html">Abonamente</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html" class="selected">Contacte</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <div>GRAFICUL DE LUCRU</div>
+                    <ul>
+                        <li><a href="#">Luni - Sâmbătă 8:00 - 21:00</a></li>
+                        <li><a href="#">Duminică - Zi liberă</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <div class="copyright-p">
+                    <p>&copy; Creat în cadrul proiectului Tekwill in fiecare școală 2024| Bortnic Eugeniu</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/BodyStartCahul?locale=ro_RO"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/bodystartcahul/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
