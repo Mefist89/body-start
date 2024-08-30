@@ -314,6 +314,10 @@ header nav {
     padding: 12px;
 }
 
+.contact-img {
+    width: 400px;
+}
+
 footer {
     width: 100vw;
     background: #1a1919;
